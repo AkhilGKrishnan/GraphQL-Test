@@ -19,6 +19,7 @@ const schema = buildSchema(`
     city: String
     state: String
     country: String
+    pincode: Int
   }
 
   enum Gender {
@@ -46,6 +47,7 @@ const schema = buildSchema(`
     city: String
     state: String
     country: String
+    pincode: Int
   }
 
   type Mutation {
